@@ -1,0 +1,56 @@
+:root {
+    --background: #282828;
+    --foreground: #ddc7a1;
+    --secondaryBackground: #1b1b1b;
+    
+    --color1: #aa0000;
+    --color2: #00aa00;
+    --color3: #0000aa;
+    --color4: #aa00aa;
+
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    color: var(--foreground);
+    font-family: monospace;
+}
+
+.search-box {
+    width: 90%;
+    margin: 2rem;
+    background-color: var(--secondaryBackground);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-field {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+#search-button {
+    cursor: pointer;
+    /* background-color: transparent; */
+    padding: 0.75rem;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
