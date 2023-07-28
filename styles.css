@@ -19,21 +19,31 @@ body {
     font-family: monospace;
 }
 
+/* Search Form */
 .search-box {
-    width: 90%;
+    width: 80%;
     margin: 2rem;
+    padding: 1rem;
     background-color: var(--secondaryBackground);
+    border-radius: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
+#search-form {
+    width: 100%;
+}
+
 #search-field {
     width: 100%;
+    background-color: inherit;
+    color: var(--foreground);
     padding: 0.5rem;
     font-size: 1rem;
-    background-color: transparent;
+    border: none;
+    /* border-radius: 1rem; */
 }
 
 #search-button {
@@ -43,14 +53,17 @@ body {
 
 }
 
+/* Cards section */
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    padding: 2rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--secondaryBackground);
 }
