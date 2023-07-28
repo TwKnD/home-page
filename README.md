@@ -7,6 +7,7 @@ Trying to build a simple home page with a search and some links to be hosted loc
 1. Fix card width on desktop  
 2. Setup mobile view  
 3. Dynamically adjust the number of grid rows based on screen width  
+4. Create site icon
 
 ### Maybe
 
