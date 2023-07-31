@@ -4,8 +4,6 @@ Trying to build a simple home page with a search and some links to be hosted loc
 
 ## ToDo
    
-1. Create site icon
-
 ### Maybe
 
 1. Colourscheme  
