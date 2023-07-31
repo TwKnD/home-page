@@ -115,3 +115,18 @@ a:hover,
 a:focus {
     background-color: var(--background);
 }
+
+
+/* Mobile / Tablet etc : breakpoints based on card size */
+@media screen and (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 456px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
