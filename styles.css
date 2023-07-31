@@ -117,8 +117,16 @@ a:focus {
 }
 
 
-/* Mobile / Tablet etc : breakpoints based on card size */
-@media screen and (max-width: 900px) {
+/* breakpoints based on card size */
+@media screen and (min-width: 1480px){
+    main {
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 1842px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 880px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
