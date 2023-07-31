@@ -21,7 +21,6 @@
 
 body {
     background-color: var(--background);
-    margin: 0;
     padding-top: 10vh;
     box-sizing: border-box;
     color: var(--foreground);
@@ -49,7 +48,6 @@ body {
     padding: 0.5rem;
     font-size: 1rem;
     border: none;
-    /* border-radius: 1rem; */
 }
 
 #search-button {
@@ -154,7 +152,6 @@ a:focus {
     main {
         grid-template-columns: 1fr 1fr;
     }
-    
 }
 
 @media screen and (max-width: 456px) {
