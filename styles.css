@@ -2,12 +2,13 @@
     --background: #282828;
     --foreground: #ddc7a1;
     --secondaryBackground: #1b1b1b;
-    
-    --color1: #aa0000;
-    --color2: #00aa00;
-    --color3: #aa00aa;
-    --color4: #ff00aa;
-    --color5: #00ffff;
+
+    --color1: #ea6962;
+    --color2: #a9b665;
+    --color3: #d38693;
+    --color4: #d8a657;
+    --color5: #7daea3;
+
 
     --svgFilterColor: invert(93%) sepia(6%) saturate(3017%) hue-rotate(317deg) brightness(108%) contrast(74%);
     --svgFilterHover: invert(100%) sepia(0%) saturate(2500%) hue-rotate(309deg) brightness(130%) contrast(96%);
