@@ -36,6 +36,7 @@ for(let c = 0; c < userConfig.length; c++) {
         let link = document.createElement('a');
         link.innerText = bookmarks[l][0];
         link.href = bookmarks[l][1];
+        link.target = "_blank"
 
         cardEl.appendChild(link)
     };
