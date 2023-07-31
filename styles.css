@@ -18,6 +18,10 @@
     margin: 0;
     padding: 0;
 }
+:focus {
+    outline: none;
+    background-color: var(--background);
+}
 
 body {
     background-color: var(--background);
@@ -28,7 +32,7 @@ body {
 }
 
 /* Search Form */
-.search-box {
+#search-box {
     width: 60%;
     max-width: 700px;
     margin: 2rem auto;
@@ -50,6 +54,11 @@ body {
     border: none;
 }
 
+#search-field:focus-visible {
+    outline: none;
+    border-bottom: 1px solid var(--foreground);
+}
+
 #search-button {
     cursor: pointer;
     background-color: transparent;
@@ -63,9 +72,9 @@ body {
     filter: var(--svgFilterColor);
 }
 
-#search-button > img:hover,
-#search-button > img:focus {
-    filter: var(--svgFilterHover);
+#search-button:hover img,
+#search-button:focus img {
+        filter: var(--svgFilterHover);
 }
 
 /* Cards section */
@@ -110,13 +119,15 @@ a {
     width: 80%;
     text-align: center;
     text-decoration: none;
+    /* text-decoration: underline dotted;
+    text-underline-offset: 0.2rem; */
     color: var(--foreground);
 }
 
-a:hover,
+/* a:hover,
 a:focus {
     background-color: var(--background);
-}
+} */
 
 
 /* breakpoints based on card size */
