@@ -1,5 +1,5 @@
 :root {
-    --background: #282828;
+    /* --background: #282828;
     --foreground: #ddc7a1;
     --secondaryBackground: #1b1b1b;
 
@@ -7,7 +7,17 @@
     --color2: #a9b665;
     --color3: #d38693;
     --color4: #d8a657;
-    --color5: #7daea3;
+    --color5: #7daea3; */
+
+    --background: #282828;
+    --foreground: #ddc7a1;
+    --secondaryBackground: #1b1b1b;
+
+    --color1: #FF6F61;
+    --color2: #6ebd55;
+    --color3: #D45580;
+    --color4: #E9D062;
+    --color5: #308A84;
 
 
     --svgFilterColor: invert(93%) sepia(6%) saturate(3017%) hue-rotate(317deg) brightness(108%) contrast(74%);
