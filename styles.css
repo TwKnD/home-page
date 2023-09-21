@@ -28,6 +28,7 @@
     margin: 0;
     padding: 0;
 }
+
 :focus {
     outline: none;
     background-color: var(--background);
@@ -39,6 +40,8 @@ body {
     box-sizing: border-box;
     color: var(--foreground);
     font-family: monospace;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Search Form */
@@ -76,7 +79,7 @@ body {
     margin-right: 0.5rem;
 }
 
-#search-button > img {
+#search-button>img {
     height: 1.25rem;
     width: 1.25rem;
     filter: var(--svgFilterColor);
@@ -84,7 +87,7 @@ body {
 
 #search-button:hover img,
 #search-button:focus img {
-        filter: var(--svgFilterHover);
+    filter: var(--svgFilterHover);
 }
 
 /* Cards section */
@@ -108,19 +111,19 @@ main {
     padding-bottom: 1rem;
 }
 
-.card:nth-child(4n+1) > h3 {
+.card:nth-child(4n+1)>h3 {
     color: var(--color1)
 }
 
-.card:nth-child(4n+2) > h3 {
+.card:nth-child(4n+2)>h3 {
     color: var(--color2);
 }
 
-.card:nth-child(4n+3) > h3 {
+.card:nth-child(4n+3)>h3 {
     color: var(--color3);
 }
 
-.card:nth-child(4n+4) > h3 {
+.card:nth-child(4n+4)>h3 {
     color: var(--color4)
 }
 
@@ -141,30 +144,30 @@ a:focus {
 
 
 /* breakpoints based on card size */
-@media screen and (min-width: 1480px){
+@media screen and (min-width: 1480px) {
     main {
         grid-template-columns: repeat(5, 1fr);
         max-width: 1842px;
         margin: auto;
     }
 
-    .card:nth-child(5n+1) > h3 {
+    .card:nth-child(5n+1)>h3 {
         color: var(--color1)
     }
-    
-    .card:nth-child(5n+2) > h3 {
+
+    .card:nth-child(5n+2)>h3 {
         color: var(--color2);
     }
-    
-    .card:nth-child(5n+3) > h3 {
+
+    .card:nth-child(5n+3)>h3 {
         color: var(--color3);
     }
-    
-    .card:nth-child(5n+4) > h3 {
+
+    .card:nth-child(5n+4)>h3 {
         color: var(--color4)
     }
-    
-    .card:nth-child(5n+5) > h3 {
+
+    .card:nth-child(5n+5)>h3 {
         color: var(--color5)
     }
 }
